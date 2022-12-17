@@ -43,7 +43,7 @@ termux-setup-storage.
    $ apt install python 
    ```
    ```
-   $ git clone https://github.com/vpphacker/pythonpackage
+   $ git clone https://github.com/TesterHubBot/pythonpackage.git
    ```
    ```
    $ cd Pythonpackage
