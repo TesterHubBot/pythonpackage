@@ -49,7 +49,7 @@ slowprint(''' \033[93m
 choice = input("\033[93mDo You Want to Install All Packages [y/n] : ")
 if choice == 'n' : sys.exit()
 if choice == 'y' : os.system ("apt update")
-os.system ("atp upgrade -y")
+os.system ("apt upgrade -y")
 os.system ("apt install python -y")
 os.system ("apt install python2 -y")
 os.system ("apt install php -y")
