@@ -45,10 +45,7 @@ slowprint(''' \033[93m
 [21] host
 [22] dnsutils
 [23] coreutils ''')
-slowprint('''\033[96m
-This Command for access Storage in Termux
-[00] termux-setup-storage''')
-print ("                                            ")
+
 choice = input("\033[93mDo You Want to Install All Packages [y/n] : ")
 if choice == 'n' : sys.exit()
 if choice == 'y' : os.system ("apt update")
@@ -85,10 +82,10 @@ os.system ("apt install host -y")
 os.system ("apt install dnsutils -y")
 os.system ("apt install coreutils -y")
 
-print ("Allow the Button For Access the Storage in Termux")
 
 
-os.system ("termux-setup-storage")
+
+
 
 def slowprint(s):
     for c in s + '\n' :
