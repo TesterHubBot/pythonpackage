@@ -97,5 +97,3 @@ slowprint('''\033[95m|             Welcome To  Techy World            |
 |           Subscribe Our YouTube Channel         |
 | Watch Ours Tutorials For Learn Ethical Hacking  |''')
 print("+-------------------------------------------------+")
-
-input("\n\nPress the enter key to exit : ")
